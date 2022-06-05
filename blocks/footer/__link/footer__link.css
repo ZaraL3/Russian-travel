@@ -6,12 +6,12 @@
   font-weight: 400;
   font-size: 16px;
   line-height: 1.1;
-  color: #fff;
+  color: #ffffff;
   transition: opacity .2s linear;
   opacity: 1;
 }
 .footer__link:hover {
-  opacity: .6;
+  opacity: .8;
 }
 @media screen and (max-width: 767px) {
   .footer__link {

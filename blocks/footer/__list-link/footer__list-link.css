@@ -1,13 +1,15 @@
-  .footer__list-link {
+ .footer__list-link {
   display: flex;
   list-style-type: none;
   padding: 0;
   margin: 0;
+  max-width: 465px;
+  justify-content: space-between;
   }
 
 @media screen and (max-width: 767px) {
   .footer__list-link {
-    flex-direction: column;
-    margin-left: 16px;
+    display: block;
+    max-width: 186px;
     }
   }
